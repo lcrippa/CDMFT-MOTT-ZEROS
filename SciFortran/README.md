@@ -54,9 +54,3 @@ The `CMake` compilation can be controlled using the following additional variabl
 `Cmake` does not officially provide uninstall procedure in the generate Makefile. Yet, it is possible to construct one such uninstall mode in a simple way. SCIFOR provides a way to uninstall the files generated inside any out-of-source compilation calling: 
 `make uninstall`  
 
-
-### CONTACT
-For any information contact the author as:  
-adriano DOT amaricci @ gmail DOT com
-
---
