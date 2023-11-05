@@ -1,0 +1,23 @@
+#%Module	
+set project dmft_tools
+set root /home/lcrippa/opt/dmft_tools/gnu/for_slurm/2.3.0
+set plat gnu
+set version gnu/for_slurm/2.3.0
+set compiler /opt/ohpc/pub/mpi/openmpi3-gnu8/3.1.4/bin/mpif90
+
+proc ModulesHelp { } {
+        puts stderr "\tThis module provides access to DMFT Tools (DMFTT) library\n";
+	puts stderr "\t Version $version\n"
+	puts stderr "\t compiled with $compiler\n"	
+}
+
+module-whatis "Dynamical Mean-Field Theory Tools (DMFTT) $version"
+
+prepend-path LD_LIBRARY_PATH    "$root/lib"
+prepend-path LIBRARY_PATH       "$root/lib"
+prepend-path PATH		"$root/bin"
+prepend-path PKG_CONFIG_PATH	"$root/etc"
+
+
+puts stderr " > (un)load DMFT Tools ($version)"
+#EOF

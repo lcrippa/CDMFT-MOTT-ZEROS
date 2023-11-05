@@ -1,0 +1,8 @@
+# The fortran modules provided by this target.
+provides
+ dmft_gf.mod
+ gf_common.mod
+ gk_matsubara.mod
+ gk_realaxis.mod
+ gloc_matsubara.mod
+ gloc_realaxis.mod

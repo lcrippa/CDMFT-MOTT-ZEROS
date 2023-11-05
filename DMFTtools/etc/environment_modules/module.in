@@ -1,0 +1,23 @@
+#%Module	
+set project @PROJECT_NAME@
+set root @PREFIX@
+set plat @FC_ID@
+set version @FULL_VER@
+set compiler @CMAKE_Fortran_COMPILER@
+
+proc ModulesHelp { } {
+        puts stderr "\tThis module provides access to DMFT Tools (DMFTT) library\n";
+	puts stderr "\t Version $version\n"
+	puts stderr "\t compiled with $compiler\n"	
+}
+
+module-whatis "Dynamical Mean-Field Theory Tools (DMFTT) $version"
+
+prepend-path LD_LIBRARY_PATH    "$root/lib"
+prepend-path LIBRARY_PATH       "$root/lib"
+prepend-path PATH		"$root/bin"
+prepend-path PKG_CONFIG_PATH	"$root/etc"
+
+
+puts stderr " > (un)load DMFT Tools ($version)"
+#EOF

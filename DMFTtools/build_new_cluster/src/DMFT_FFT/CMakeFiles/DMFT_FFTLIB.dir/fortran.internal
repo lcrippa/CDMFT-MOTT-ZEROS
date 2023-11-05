@@ -1,0 +1,4 @@
+# The fortran modules provided by this target.
+provides
+ dmft_fftaux.mod
+ dmft_fftgf.mod

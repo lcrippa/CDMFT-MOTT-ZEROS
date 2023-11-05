@@ -1,0 +1,11 @@
+# The fortran modules provided by this target.
+provides
+ dmft_tight_binding.mod
+ tb_basis.mod
+ tb_build.mod
+ tb_common.mod
+ tb_efermi.mod
+ tb_fsurf.mod
+ tb_io.mod
+ tb_solve.mod
+ tb_wannier90.mod

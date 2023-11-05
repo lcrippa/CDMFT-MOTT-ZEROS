@@ -1,0 +1,7 @@
+# The fortran modules provided by this target.
+provides
+ dmft_weiss_field.mod
+ sc_common.mod
+ sc_delta.mod
+ sc_global.mod
+ sc_weiss.mod
