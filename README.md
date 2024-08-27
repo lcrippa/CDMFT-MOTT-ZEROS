@@ -1,6 +1,6 @@
 # Cluster-DMFT solver based on Exact Diagonalization/Lanczos
 
-Lanczos based solver for the **Cluster** Dynamical Mean-Field Theory, as used for the numerical calculations in https://arxiv.org/abs/2301.05588.
+Lanczos based solver for the **Cluster** Dynamical Mean-Field Theory, as used for the numerical calculations in https://doi.org/10.1038/s41467-023-42773-7 (https://arxiv.org/abs/2301.05588).
 The three folders contain the code itself and a set of necessary libraries and should be installed in the following order
 
 ### Installation
